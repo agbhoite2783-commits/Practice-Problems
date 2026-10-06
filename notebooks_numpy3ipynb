@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "xpython",
+      "display_name": "Python 3.13 (XPython)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.13.1"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "c4d4f790-6b53-4058-83c0-f3664c501663",
+      "cell_type": "code",
+      "source": "import numpy as np\narr = np.array(42)\nprint(arr)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "42\n"
+        }
+      ],
+      "execution_count": 1
+    },
+    {
+      "id": "cccccf46-75de-4bd3-a4cf-81e535b3d36d",
+      "cell_type": "code",
+      "source": "import numpy as np \narr = np.array([[1,2,3],[4,5,6]])\nprint(arr)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "[[1 2 3]\n [4 5 6]]\n"
+        }
+      ],
+      "execution_count": 3
+    },
+    {
+      "id": "b6a99df1-8fb8-451d-b6d9-05bd7e99217f",
+      "cell_type": "code",
+      "source": "import numpy as np\narr = np.array([[1,2,3],[4,5,6],[1,2,3]])\nprint(arr)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "[[1 2 3]\n [4 5 6]\n [1 2 3]]\n"
+        }
+      ],
+      "execution_count": 8
+    },
+    {
+      "id": "ee4abbda-9be6-4fc3-a3b6-83bb16b3c2dc",
+      "cell_type": "code",
+      "source": "import numpy as np \na = np.array(42)\nb = np.array([1,2,3,4,5])\nc = np.array([[1,2,3],[4,5,6,]])\nd = np.array([[1,2,3],[4,5,6],[1,2,3],[4,5,6]])\nprint(a.ndim)\nprint(b.ndim)\nprint(c.ndim)\nprint(d.ndim)\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "0\n1\n2\n2\n"
+        }
+      ],
+      "execution_count": 12
+    },
+    {
+      "id": "03d13def-42b1-4ac9-a04c-4c1b328644b5",
+      "cell_type": "code",
+      "source": "import numpy as np\narr = np.array([1,2,3,4])import numpy as np\narr = np.array([1,2,3,4,5,6,7])\nprint(arr[::2])\nprint(arr[3])import numpy as np\narr = np.array([1,2,3,4,5,6,7])\nprint(arr[1:5:3])",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "4\n"
+        }
+      ],
+      "execution_count": 13
+    }
+  ]
+}
